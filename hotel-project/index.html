@@ -6,12 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="description" content="Most comfy hotel in the web">
   <meta name="keywords" content="hotel,sydney,nsw">
+  <script src="https://kit.fontawesome.com/2d2b524b0f.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/style.css">
   <title>HOTEL HEY!</title>
 </head>
 <body>
   <header>
-    <nav id="navbar">
+    <nav id="navbar" class="sticky">
       <div class="container">
         <h1 class="logo">
           <a href="index.html">HEY!</a>
@@ -19,8 +20,9 @@
         <ul>
           <li>
             <a class="current" href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a href="blog.html">Blog</a>
           </li>
         </ul>
       </div>
@@ -35,7 +37,7 @@
       </div>
     </div>
   </header>
-  <section id="home-info" class="bg-dark">
+  <section id="home-info" class="bg-dark" id="about">
     <div class="info-img">
 
     </div>
@@ -48,5 +50,29 @@
     </div>
   </section>
 
+  <section id="features">
+    <div class="box bg-light">
+      <i class="fas fa-swimmer fa-3x"></i>
+      <h3>Piscina.</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, explicabo!</p>
+    </div>
+    <div class="box bg-primary">
+      <i class="fas fa-utensils fa-3x"></i>
+      <h3>Restaurante.</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, sequi?</p>
+    </div>
+    <div class="box bg-light">
+      <i class="fas fa-dumbbell fa-3x"></i>
+      <h3>Academia.</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, inventore?</p>
+    </div>
+  </section>
+
+  <footer id="main-footer" class="clr">   
+    <p>Hotel HEY! &copy - Todos direitos reservados</p>
+
+  </footer>
+
 </body>
+<script src="/hotel-project/sticky-menu.js"></script>
 </html>
