@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Most comfy hotel in the web">
+  <meta name="keywords" content="hotel,sydney,nsw">
+  <script src="https://kit.fontawesome.com/2d2b524b0f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <title>HOTEL HEY!</title>
+</head>
+
+<body>
+  <header>
+    <nav id="navbar-dark">
+      <div class="container">
+        <h1 class="logo">
+          <a href="index.html">HEY!</a>
+        </h1>
+        <ul>
+          <li>
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a class="current" href="#contact">Contact</a>
+            <a href="blog.html">Blog</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  </header>
+  
+  <section id="contact-form" class="py-6">
+    <div class="container">
+      <h1 class="l-heading"><span class="text-primary">Fale</span>Conosco</h1>
+      <p>Preencha as informações abaixo</p>
+    </div>
+    <form action="process.php">
+      <div class="from-group">
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name">
+      </div>
+      <div class="from-group">
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email">
+      </div>
+      <div class="from-group">
+        <label for="menssage">Mensagem</label>
+        <textarea name="menssage" id="menssage"></textarea>
+      </div>
+      <button type="submit" class="btn">Enviar</button>
+
+    </form>
+  </section>
+
+  <section id="contact-info" class="bg-dark">
+    <div class="container">
+        <div class="box">
+          <i class="fas fa-hotel fa-3x"></i>
+          <h3>Location.</h3>
+          <p>Rua Niteroi 200</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-phone fa-3x"></i>
+          <h3>Telefone.</h3>
+          <p>9777-9317</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-envelope fa-3x"></i>
+          <h3>E-mail.</h3>
+          <p>johnev90@gmail.com</p>
+        </div>
+    </div>
+  </section>
+ 
+
+  <footer id="main-footer" class="clr">
+    <p>Hotel HEY! &copy - Todos direitos reservados</p>
+  </footer>
+
+</body>
+<script src="/hotel-project/sticky-menu.js"></script>
+
+</html>

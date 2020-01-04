@@ -89,6 +89,8 @@ p {
 .py-3 { padding: 30px 0;}
 .py-6 { padding: 100px 0;}
 
+.py-tp-1{padding-top: 100px;}
+
 /** Margin **/
 .mg-1 { margin-top: 10px;}
 .mg-2 { margin-top: 20px;}
@@ -138,7 +140,8 @@ p {
 
 #navbar-dark{
   width: 100%;
-
+  position: fixed;
+  top: 0;
   background: #333;
   color: #fff; 
   overflow: auto;
@@ -189,7 +192,7 @@ p {
 /** Showcase **/
 #showcase {
   background: url('../img/showcase.jpg') no-repeat center center/cover;
-  height: 750px;
+  height: 100vh;
 }
 
 #showcase .showcase-content {
@@ -210,7 +213,8 @@ p {
 
 /** Home INfo **/
 #home-info{
-  height: 400px;
+  height: 500px;
+  
 }
 
 #home-info .info-img {
@@ -227,6 +231,14 @@ p {
   text-align: center;
   padding: 50px 30px;
   overflow: hidden;
+}
+
+.info-content h2{
+  padding-top: 50px;
+}
+.info-content p {
+
+  padding-bottom: 50px;
 }
 
 #home-info .info-content p{
@@ -266,9 +278,9 @@ p {
 
 /** Testimonial **/
 #testimonials {
-  height: 600px;
+  height: 100%;
   background: url('../img/test-bg.jpg') no-repeat center center/cover;
-  padding-top: 100px;
+  padding-top: 50px;
   
 }
 
@@ -292,6 +304,42 @@ p {
   border-radius: 50%;
   
 }
+
+/** Contato Form **/
+#contact{
+  background: #f4f4f4;
+}
+
+#contact-form {
+  width: 45%;
+  margin: auto;
+}
+
+#contact-form .from-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label{
+  display: block;
+  margin-bottom: 5px;
+}
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+
 
 /** Footer **/
 #main-footer{

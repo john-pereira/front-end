@@ -8,6 +8,7 @@
   <meta name="keywords" content="hotel,sydney,nsw">
   <script src="https://kit.fontawesome.com/2d2b524b0f.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
   <title>HOTEL HEY!</title>
 </head>
 <body>
@@ -20,7 +21,7 @@
         <ul>
           <li>
             <a class="current" href="#">Home</a>
-            <a href="#about">About</a>
+            <a href="#home-info">About</a>
             <a href="#contact">Contact</a>
             <a href="blog.html">Blog</a>
           </li>
@@ -37,6 +38,7 @@
       </div>
     </div>
   </header>
+
   <section id="home-info" class="bg-dark" id="about">
     <div class="info-img">
 
@@ -65,6 +67,71 @@
       <i class="fas fa-dumbbell fa-3x"></i>
       <h3>Academia.</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, inventore?</p>
+    </div>
+  </section>
+
+  <section id="testimonials" class="py-3">
+    <div class="container">
+      <h2 class="l-heading py-tp-1 ">O que Nossos Clientes Dizem</h2>
+      <div class="testimonial bg-primary">
+        <img src="./img/person-1.jpg" alt="Joana">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem blanditiis eos, provident ducimus odit
+          consequuntur non facilis quo delectus placeat veniam saepe dolorum tempora omnis nobis, quisquam suscipit maxime
+          incidunt fuga voluptate? Delectus deleniti dolore modi veniam ipsam dolorum corrupti.</p>
+      </div>
+      <div class="testimonial bg-primary">
+        <img src="./img/person-2.jpg" alt="Tamara">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem blanditiis eos, provident ducimus odit
+          consequuntur
+          non facilis quo delectus placeat veniam saepe dolorum tempora omnis nobis, quisquam suscipit maxime incidunt
+          fuga
+          voluptate? Delectus deleniti dolore modi veniam ipsam dolorum corrupti.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-6">
+    <div class="container" id="contact-form">
+      <h1 class="l-heading"><span class="text-primary">Fale </span>Conosco</h1>
+    
+    <form action="process.php">
+      <div class="from-group">
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name">
+      </div>
+      <div class="from-group">
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email">
+      </div>
+      <div class="from-group">
+        <label for="menssage">Mensagem</label>
+        <textarea name="menssage" id="menssage"></textarea>
+      </div>
+      <button type="submit" class="btn">Enviar</button>
+  
+    </form>
+    </div>
+  </section>
+
+  
+  
+  <section id="contact-info" class="bg-dark">
+    <div class="container">
+      <div class="box">
+        <i class="fas fa-hotel fa-3x"></i>
+        <h3>Location.</h3>
+        <p>Rua Niteroi 200</p>
+      </div>
+      <div class="box">
+        <i class="fas fa-phone fa-3x"></i>
+        <h3>Telefone.</h3>
+        <p>9777-9317</p>
+      </div>
+      <div class="box">
+        <i class="fas fa-envelope fa-3x"></i>
+        <h3>E-mail.</h3>
+        <p>johnev90@gmail.com</p>
+      </div>
     </div>
   </section>
 

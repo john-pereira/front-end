@@ -10,5 +10,4 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
- 
-console.log( navbar.id );
+
